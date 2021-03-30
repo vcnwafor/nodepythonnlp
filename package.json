@@ -1,0 +1,14 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "calling pyton in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "ng e2e"
+  },
+  "author": "victorc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
