@@ -21,7 +21,15 @@ pipeline {
     
     post {
         always {
-            
+            // will execute any stuff after all the stages are done, whether success or failure
+        }
+
+        success {
+            //will only be executed on success after all the stages are done
+        }
+
+        failure {
+            // will only be executed on failure after all the stages are done
         }
     }
 }
